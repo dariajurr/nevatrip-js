@@ -1,0 +1,25 @@
+.main {
+    padding: 20px;
+}
+
+.select-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.select-group__item {
+    margin-bottom: 20px;
+}
+
+.select-group__label {
+    padding-bottom: 5px;
+}
+
+.hidden {
+    visibility: hidden;;
+}
+
+.visible {
+    visibility: visible;
+}

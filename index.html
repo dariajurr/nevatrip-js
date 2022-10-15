@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <div class="select-group">
+            <select name="route" id="route" class="select-group__item">
+                <option value="" disabled selected style="display: none;">Выберите маршрут</option>
+                <option value="из A в B">из A в B</option>
+                <option value="из B в A">из B в A</option>
+                <option value="из A в B и обратно в А">из A в B и обратно в А</option>
+            </select>
+            <label for="time" class="select-group__label hidden"></label>
+            <select name="time" id="time" class="select-group__item hidden">
+            </select>
+        </div>
+        <div class="count-group hidden">
+            <label for="num">Количество билетов</label>
+            <input id="num" type="number" class="count-group__input">
+            <button class="count-group__btn">Посчитать</button>
+            <pre class="count-group__result-field"></pre>
+        </div>
+    </main>
+<script src="index.js"></script>
+</body>
+</html>
